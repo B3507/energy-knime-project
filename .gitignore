@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Env / secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large raw / clean datasets (GitHub 100MB limit)
+# Keep hourly CSV (small) for KNIME
+data/household_power_consumption.txt
+data/household_power_clean.csv
+
+# KNIME local workspace junk (keep plans + exported knwf)
+**/workspace/
+**/.metadata/
