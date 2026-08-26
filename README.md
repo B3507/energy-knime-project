@@ -41,15 +41,3 @@ python -m venv .venv
 .\activate.bat
 pip install pandas numpy matplotlib scikit-learn python-docx
 ```
-
-## KNIME
-
-1. `data/household_power_hourly.csv` oku (delimiter `,`)
-2. Plan: `knime/01_Clustering_PLAN.md`
-3. Workflow export: `knime/EXPORT_WORKFLOW.md`
-
-## Kümeleme raporu
-
-- Markdown: `report/RAPOR_Kumeleme.md`
-- Word: `report/RAPOR_Kumeleme.docx`
-- Screenshot’lar: `screenshots/`
